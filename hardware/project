@@ -1,0 +1,4 @@
+schematics		sdr_pre_pg1.sch 
+output-name		sdr_pre
+elements-dir	../../pcb-elements/
+skip-m4
