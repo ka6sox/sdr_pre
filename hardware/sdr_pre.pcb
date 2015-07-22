@@ -841,7 +841,7 @@ Element["" "my_0805" "C2" "10uf" 650.00mil 250.00mil 35.00mil 95.00mil 3 100 ""]
 
 	)
 
-Element["" "HEADER2_1" "CONN1" "unknown" 80.00mil 180.00mil -50.00mil -155.00mil 0 100 ""]
+Element["" "HEADER2_1" "CONN1" "unknown" 80.00mil 180.00mil 0.0000 -125.00mil 0 70 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
 	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,1X)"]
@@ -888,7 +888,7 @@ Element["" "my_0603_sm" "C3" "0.1uf" 735.00mil 250.00mil 34.40mil 89.89mil 3 100
 
 	)
 
-Element["" "SHIELD-650-650_Lairdtech" "SH1" "unknown" 650.00mil 415.00mil 385.00mil -390.00mil 0 100 ""]
+Element["" "SHIELD-650-650_Lairdtech" "SH1" "unknown" 650.00mil 415.00mil 370.00mil 10.00mil 0 100 ""]
 (
 	Pad[-8.1501mm -55.12mil -8.1501mm 55.12mil 39.37mil 41.00mil 41.00mil "1" "1" "square"]
 	Pad[8.1501mm -55.12mil 8.1501mm 55.12mil 39.37mil 41.00mil 41.00mil "1" "1" "square"]
@@ -1027,10 +1027,10 @@ Layer(10 "silk")
 (
 	Text[70.00mil 85.00mil 0 80 "+" "clearline"]
 	Text[170.00mil 85.00mil 0 80 "-" "clearline"]
-	Text[1040.00mil 100.00mil 0 70 "SDR_PRE" "clearline"]
-	Text[1040.00mil 155.00mil 0 70 "(C)2015" "clearline"]
-	Text[1040.00mil 200.00mil 0 70 "Tom King" "clearline"]
-	Text[1045.00mil 255.00mil 0 70 "KA6SOX" "clearline"]
+	Text[1055.00mil 60.00mil 0 70 "SDR_PRE" "clearline"]
+	Text[1055.00mil 115.00mil 0 70 "(C)2015" "clearline"]
+	Text[1055.00mil 160.00mil 0 70 "Tom King" "clearline"]
+	Text[1060.00mil 215.00mil 0 70 "KA6SOX" "clearline"]
 )
 NetList()
 (
